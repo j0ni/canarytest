@@ -1,8 +1,14 @@
 describe "how much of our ass is in the air" do
   before do
     puts "configured base_uri: #{Appcanary.configuration.base_uri}"
+  end
 
-    Appcanary.update_monitor!
+  after do
+    begin
+      Appcanary.update_monitor!
+    rescue => e
+      puts "caught an error: #{e.msg}"
+    end
   end
 
   it "satisfies appcanary's bloody minded analysis" do
