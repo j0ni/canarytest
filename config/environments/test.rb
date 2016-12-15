@@ -39,4 +39,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  Appcanary.configure do |canary|
+    canary.api_token = ENV["APPCANARY_API_TOKEN"] || "token not set"
+    canary.monitor_name = "canarytest"
+  end
 end
