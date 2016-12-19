@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/appcanary/appcanary.rb
-  revision: f7cb98b38e8136ea8224401a4dcbe1d44103ca84
-  branch: j0ni/rails-config
+  revision: 3d450f96afa66ea24fb0031b5a757564c59b57f7
+  branch: j0ni/rake-tasks
   specs:
     appcanary (0.1.0)
       json (>= 1.8.3)

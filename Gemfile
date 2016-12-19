@@ -22,7 +22,7 @@ group :development, :test do
   gem 'pry'
   gem 'appcanary',
       :git => "https://github.com/appcanary/appcanary.rb",
-      :branch => "j0ni/rails-config"
+      :branch => "j0ni/rake-tasks"
   gem 'minitest', '>= 5.0'
   gem 'minitest-ci'
 end
