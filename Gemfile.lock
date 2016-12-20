@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/appcanary/appcanary.rb
-  revision: 93110a97ebb729d6ba73bd7f5ca8c82eba7d3640
+  revision: 8ac0c2d2ccd2280796d00121d4c992b795a252ce
   specs:
     appcanary (0.1.0)
       json (>= 1.8.3)
