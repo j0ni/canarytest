@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/appcanary/appcanary.rb
-  revision: 066ecbd334c966428a950b24b6e403ca7d4b5454
-  branch: j0ni/remove-profanity
+  revision: b8d80b560436cddf30953660f41ddaacb533b501
+  branch: j0ni/fix-rake-config
   specs:
     appcanary (0.1.0)
       json (>= 1.8.3)
