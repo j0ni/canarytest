@@ -42,5 +42,6 @@ Rails.application.configure do
   Appcanary.configure do |canary|
     canary.api_token = ENV["APPCANARY_API_TOKEN"] || "token not set"
     canary.monitor_name = "canarytest"
+    canary.base_uri = ENV["APPCANARY_BASE_URI"] || "http://localhost:3000/api/v3"
   end
 end

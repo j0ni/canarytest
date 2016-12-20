@@ -1,0 +1,4 @@
+test:
+  post:
+    - bundle exec rake appcanary:check
+    - bundle exec rake appcanary:update_monitor
