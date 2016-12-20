@@ -21,8 +21,7 @@ group :development, :test do
   gem 'byebug'
   gem 'pry'
   gem 'appcanary',
-      :git => "https://github.com/appcanary/appcanary.rb",
-      :branch => "j0ni/fix-rake-config"
+      :git => "https://github.com/appcanary/appcanary.rb"
   gem 'minitest', '>= 5.0'
   gem 'minitest-ci'
 end

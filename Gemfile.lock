@@ -1,7 +1,6 @@
 GIT
   remote: https://github.com/appcanary/appcanary.rb
-  revision: b8d80b560436cddf30953660f41ddaacb533b501
-  branch: j0ni/fix-rake-config
+  revision: 93110a97ebb729d6ba73bd7f5ca8c82eba7d3640
   specs:
     appcanary (0.1.0)
       json (>= 1.8.3)
