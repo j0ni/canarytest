@@ -20,6 +20,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem "puma"
 gem 'appcanary'
+gem "rails_12factor"
 
 group :development, :test do
   gem 'byebug'
