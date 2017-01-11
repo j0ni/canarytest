@@ -36,14 +36,4 @@ Rails.application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
-
-  # Raises error for missing translations
-  # config.action_view.raise_on_missing_translations = true
-  Appcanary.configure do |canary|
-    canary.api_token = ENV["APPCANARY_API_TOKEN"] || "token not set"
-    canary.monitor_name = "canarytest"
-    # defaults to https://appcanary.com/api/v3 -- this is for local testing
-    # note, this means the env var needs setting in CI in this case
-    canary.base_uri = ENV["APPCANARY_BASE_URI"] || "http://localhost:3000/api/v3"
-  end
 end

@@ -35,12 +35,4 @@ Rails.application.configure do
   # Checks for improperly declared sprockets dependencies.
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
-
-  # Raises error for missing translations
-  # config.action_view.raise_on_missing_translations = true
-  Appcanary.configure do |canary|
-    canary.api_token = ENV["APPCANARY_API_TOKEN"] || "token not set"
-    canary.base_uri = "http://localhost:3000/api/v3"
-    canary.monitor_name = "canarytest"
-  end
 end
