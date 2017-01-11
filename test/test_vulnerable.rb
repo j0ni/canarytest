@@ -5,13 +5,13 @@ describe "how much of our ass is in the air" do
 
   after do
     begin
-      Appcanary::Client.update_monitor!
+      Appcanary.update_monitor!
     rescue => e
       puts "caught an error: #{e.msg}"
     end
   end
 
   it "satisfies appcanary's bloody minded analysis" do
-    assert(!Appcanary::Client.vulnerable?, "srsly get woke")
+    assert(!Appcanary.is_this_app_vulnerable?, "srsly get woke")
   end
 end
