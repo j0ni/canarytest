@@ -19,11 +19,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem "puma"
+gem 'appcanary'
 
 group :development, :test do
   gem 'byebug'
   gem 'pry'
-  gem 'appcanary'
   gem 'minitest', '>= 5.0'
   gem 'minitest-ci'
 end
